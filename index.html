@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Pokémon Card Collection</title>
+
+    <!-- Bootstrap -->
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+    >
+
+    <!-- Fuentes -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Rajdhani:wght@400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- CSS -->
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+
+</head>
+
+
+<body>
+
+    <!-- Fondo -->
+
+    <div class="background">
+
+        <div class="pokeball-bg pokeball-one"></div>
+        <div class="pokeball-bg pokeball-two"></div>
+        <div class="pokeball-bg pokeball-three"></div>
+
+    </div>
+
+
+    <!-- Encabezado -->
+
+    <header class="top-bar">
+
+        <div class="logo">
+
+            <span class="logo-pokemon">
+                POKÉMON
+            </span>
+
+            <span class="logo-subtitle">
+                CARD DATABASE
+            </span>
+
+        </div>
+
+
+        <div class="online">
+
+            <span></span>
+
+            ONLINE
+
+        </div>
+
+    </header>
+
+
+    <!-- Contenido -->
+
+    <main class="container">
+
+        <section class="intro">
+
+            <p class="mini-title">
+                DIGITAL CARD COLLECTION
+            </p>
+
+            <h1>
+                POKÉMON
+                <span>DATABASE</span>
+            </h1>
+
+            <p class="description">
+                Descubre las características y estadísticas
+                de tus Pokémon favoritos.
+            </p>
+
+            <button
+                id="botonPokemon"
+                class="show-button"
+            >
+                🔥 MOSTRAR CHARMANDER
+            </button>
+
+        </section>
+
+
+        <!-- Aquí aparece la tarjeta -->
+
+        <div
+            id="resultado"
+            class="resultado"
+        >
+
+            <div class="waiting">
+
+                <div class="waiting-ball">
+                    <div></div>
+                </div>
+
+                <p>
+                    POKÉMON CARD SYSTEM
+                </p>
+
+                <small>
+                    Presiona el botón para revelar la carta
+                </small>
+
+            </div>
+
+        </div>
+
+    </main>
+
+
+    <!-- Footer -->
+
+    <footer>
+
+        <span>
+            POKÉMON CARD DATABASE
+        </span>
+
+        <span>
+            DATA FROM POKÉAPI
+        </span>
+
+    </footer>
+
+
+    <!-- JavaScript -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
